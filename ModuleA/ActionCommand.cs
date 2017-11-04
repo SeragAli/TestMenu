@@ -6,6 +6,8 @@ namespace ModuleA
 {
     public class ActionCommand : ICommand
     {
+        private const string MainRegion = "MainRegion"; 
+
         private IRegionManager _regionManager;
         public ActionCommand(IRegionManager regionManager)
         {
@@ -20,9 +22,19 @@ namespace ModuleA
 
         public void Execute(object parameter)
         {
-            _regionManager.RegisterViewWithRegion("MainRegion", typeof(MenuAView));
+            var registeredViews =_regionManager.Regions[MainRegion].Views;
+            foreach (var registeredView in registeredViews)
+            {
+                if (registeredView.GetType() == typeof (MenuAView))
+                {
+                    _regionManager.Regions[MainRegion].Activate(registeredView);
+                    return;
+                }
+            }
 
-            _regionManager.RequestNavigate("MainRegion", "MenuAView");
+            _regionManager.RegisterViewWithRegion(MainRegion, typeof(MenuAView));
+
+            _regionManager.RequestNavigate(MainRegion, "MenuAView");
         }
     }
 }
