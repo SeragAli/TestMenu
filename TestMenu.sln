@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFHost", "WPFHost\WPFHost.csproj", "{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{17444F80-BBF2-48B5-9B0A-34DA12DA7340}"
@@ -26,6 +28,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{5BE8EBB2-CB8F-413E-A213-0B36392B8072}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Component Diagram.jpg = Documentation\Component Diagram.jpg
+		Documentation\Technical Document.txt = Documentation\Technical Document.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

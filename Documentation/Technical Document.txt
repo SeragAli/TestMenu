@@ -1,0 +1,65 @@
+Menu Configuration:
+	Definition for menu section in app.config
+
+Interfaces:
+
+	IMainMenuItem: 
+		Properties:
+		Name (string)
+		Text (string)
+		Order (int)
+		Active (bool)
+		Children (List of IMainMenuItem)
+		MenuAction (Command)
+
+Parent Menu:
+	Module:
+		Registers the assembly to the prism container.
+	
+	Main Module: 
+		Implements IMainMenuItem
+
+
+Module A:
+	Module:
+		Registers the assembly to the prism container.
+
+	MenuAView:
+		Only a view with welcome message.
+
+	MenuAViewModel:
+		MVVM sample.
+	
+	MenuA: 
+		Implements IMainMenuItem
+
+	ActionCommand:
+		Execute: 
+			Registers MenuAView to the shell's main region.
+
+Module B:
+	Module:
+		Registers the assembly to the prism container.
+
+	MenuBView:
+		Only a view with welcome message.
+
+	MenuAViewModel:
+		MVVM sample.
+	
+	MenuB: 
+		Implements IMainMenuItem
+
+	ActionCommand:
+		Execute: 
+			Registers MenuBView to the shell's main region.
+
+WPFHost:
+	The main project, contains the shell
+	Shell:
+		Loads the associated assemblies.
+		Contains the main region where views laid on.
+	App.Config:
+		Contains the custom menu sections that draws the hierarchy of the menus.
+	Module Catalog:
+		Contains the assemblies that will be resolved by prism.

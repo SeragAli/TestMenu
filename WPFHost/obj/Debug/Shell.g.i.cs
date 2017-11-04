@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using Interfaces;
+using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
 using System;
 using System.Diagnostics;

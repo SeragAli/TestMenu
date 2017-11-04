@@ -5,3 +5,12 @@ C:\Users\serag.ali\Desktop\TestMenu\ModuleB\bin\Debug\Microsoft.Practices.Prism.
 C:\Users\serag.ali\Desktop\TestMenu\ModuleB\bin\Debug\Microsoft.Practices.Unity.dll
 C:\Users\serag.ali\Desktop\TestMenu\ModuleB\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\Users\serag.ali\Desktop\TestMenu\ModuleB\bin\Debug\Interfaces.pdb
+C:\Users\Serag\Desktop\3bdo\TestMenu\WPFHost\bin\Debug\ModuleB.dll
+C:\Users\Serag\Desktop\3bdo\TestMenu\WPFHost\bin\Debug\ModuleB.pdb
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\ModuleB.csprojResolveAssemblyReference.cache
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\MenuBView.baml
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\MenuBView.g.cs
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\ModuleB_MarkupCompile.cache
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\ModuleB.g.resources
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\ModuleB.dll
+C:\Users\Serag\Desktop\3bdo\TestMenu\ModuleB\obj\Debug\ModuleB.pdb

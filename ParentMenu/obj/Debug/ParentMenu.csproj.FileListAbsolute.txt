@@ -5,3 +5,8 @@ C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.Pri
 C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.Unity.dll
 C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Interfaces.pdb
+C:\Users\Serag\Desktop\3bdo\TestMenu\WPFHost\bin\Debug\ParentMenu.dll
+C:\Users\Serag\Desktop\3bdo\TestMenu\WPFHost\bin\Debug\ParentMenu.pdb
+C:\Users\Serag\Desktop\3bdo\TestMenu\ParentMenu\obj\Debug\ParentMenu.csprojResolveAssemblyReference.cache
+C:\Users\Serag\Desktop\3bdo\TestMenu\ParentMenu\obj\Debug\ParentMenu.dll
+C:\Users\Serag\Desktop\3bdo\TestMenu\ParentMenu\obj\Debug\ParentMenu.pdb

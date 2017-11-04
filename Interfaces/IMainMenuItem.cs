@@ -19,7 +19,7 @@ namespace Interfaces
         /// <summary>
         /// Menu item text
         /// </summary>
-        string Text { get; set; }
+        string Text { get; set; }   
         /// <summary>
         /// Menu item order
         /// </summary>
