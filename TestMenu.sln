@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFHost", "WPFHost\WPFHost.csproj", "{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{17444F80-BBF2-48B5-9B0A-34DA12DA7340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuConfiguration", "MenuConfiguration\MenuConfiguration.csproj", "{875B3696-96B2-43D3-9366-673B95CE9A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentMenu", "ParentMenu\ParentMenu.csproj", "{22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{4992E077-67C6-4D90-89A1-A33CF3DEC898}"
+	ProjectSection(SolutionItems) = preProject
+		SDK\Microsoft.Practices.EnterpriseLibrary.Common.dll = SDK\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		SDK\Microsoft.Practices.EnterpriseLibrary.Logging.dll = SDK\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+		SDK\Microsoft.Practices.Prism.dll = SDK\Microsoft.Practices.Prism.dll
+		SDK\Microsoft.Practices.Prism.MefExtensions.dll = SDK\Microsoft.Practices.Prism.MefExtensions.dll
+		SDK\Microsoft.Practices.Prism.UnityExtensions.dll = SDK\Microsoft.Practices.Prism.UnityExtensions.dll
+		SDK\Microsoft.Practices.ServiceLocation.dll = SDK\Microsoft.Practices.ServiceLocation.dll
+		SDK\Microsoft.Practices.Unity.Configuration.dll = SDK\Microsoft.Practices.Unity.Configuration.dll
+		SDK\Microsoft.Practices.Unity.dll = SDK\Microsoft.Practices.Unity.dll
+		SDK\Microsoft.Practices.Unity.Interception.Configuration.dll = SDK\Microsoft.Practices.Unity.Interception.Configuration.dll
+		SDK\Microsoft.Practices.Unity.Interception.dll = SDK\Microsoft.Practices.Unity.Interception.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8DFBF2-9310-472F-ACC3-441C8140DD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17444F80-BBF2-48B5-9B0A-34DA12DA7340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17444F80-BBF2-48B5-9B0A-34DA12DA7340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17444F80-BBF2-48B5-9B0A-34DA12DA7340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17444F80-BBF2-48B5-9B0A-34DA12DA7340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875B3696-96B2-43D3-9366-673B95CE9A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875B3696-96B2-43D3-9366-673B95CE9A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875B3696-96B2-43D3-9366-673B95CE9A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875B3696-96B2-43D3-9366-673B95CE9A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265EE386-67C8-48C1-BBC0-3F1B52CD8F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9070BDD8-DA3B-43DE-A642-778D9C1DFDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

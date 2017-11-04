@@ -1,0 +1,7 @@
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\ParentMenu.dll
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\ParentMenu.pdb
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Interfaces.dll
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\serag.ali\Desktop\TestMenu\ParentMenu\bin\Debug\Interfaces.pdb

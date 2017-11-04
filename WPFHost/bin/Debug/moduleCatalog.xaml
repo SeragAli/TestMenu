@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<modularity:ModuleCatalog
+    xmlns:modularity="clr-namespace:Microsoft.Practices.Prism.Modularity;assembly=Microsoft.Practices.Prism">
+
+    <modularity:ModuleInfo 
+        Ref="ModuleA.dll" 
+        ModuleName="MenuA" 
+        ModuleType="ModuleA.Module, ModuleA" />
+    <modularity:ModuleInfo 
+        Ref="ModuleB.dll" 
+        ModuleName="MenuB" 
+        ModuleType="ModuleB.Module, ModuleB" />
+    
+    <modularity:ModuleInfo 
+        Ref="ParentMenu.dll" 
+        ModuleName="Parent" 
+        ModuleType="ParentMenu.Module, ParentMenu" />
+</modularity:ModuleCatalog>

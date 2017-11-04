@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="9A8DFBF2-9310-472F-ACC3-441C8140DD1F" ModuleId="WPFHost" />
+  <Module PersistentId="17444F80-BBF2-48B5-9B0A-34DA12DA7340" ModuleId="Interfaces" />
+  <Module PersistentId="875B3696-96B2-43D3-9366-673B95CE9A2D" ModuleId="MenuConfiguration" />
+  <Module PersistentId="22BE98F5-2B89-4E5B-8E7D-2E0D21A8E6E0" ModuleId="ParentMenu" />
+  <Module PersistentId="265EE386-67C8-48C1-BBC0-3F1B52CD8F6F" ModuleId="ModuleA" />
+  <Module PersistentId="9070BDD8-DA3B-43DE-A642-778D9C1DFDB4" ModuleId="ModuleB" />
+</Modules>
